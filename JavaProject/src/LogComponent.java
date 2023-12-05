@@ -7,11 +7,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public interface ILog {
-    void write(String message);
-    void stopImmediately();
-    void stopAndWait();
-}
 
 public class LogComponent implements ILog {
     private final String logFilePath;

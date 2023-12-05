@@ -1,4 +1,4 @@
-public class Application {
+public class App {
     public static void main(String[] args) {
         ILog logger = new LogComponent("log.txt");
         logger.write("Log message 1");
